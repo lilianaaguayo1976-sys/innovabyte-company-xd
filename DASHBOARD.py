@@ -11,6 +11,17 @@ st.set_page_config(
 
 st.markdown(
     """
+    <html lang="es" class="notranslate" translate="no">
+    <head>
+        <meta name="google" content="notranslate" />
+    </head>
+    </html>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.markdown(
+    """
     <style>
         .main {
             background: linear-gradient(180deg, #f5f7ff 0%, #ffffff 100%);
