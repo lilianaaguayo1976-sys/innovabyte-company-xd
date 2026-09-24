@@ -96,7 +96,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.subheader("Por que puedes contar con nosotros en tus estudios y en tu vida laboral")
 
 features = [
-    ("Queremos que nuestro proyecto de Becas sea un exito y por eso a ti, si tu que estas viendo esto queremso que cuentes con nosotros."),
+    ("Becas de Éxito", "Queremos que nuestro proyecto de Becas sea un éxito y por eso queremos que cuentes con nosotros."),
     ("Proyectos Voladores", "Crea e ingenia tus propios proyectos como el six seven volador y el aura poderosa te recompensara."),
     ("Maxima Aura", "Podras tener la mas grande aura de todos los trabajadores si es que te aplicas mucho y te esfuerzas mas."),
 ]
@@ -113,7 +113,6 @@ for col, (title, body) in zip(feature_cols, features):
             """,
             unsafe_allow_html=True,
         )
-
 st.markdown("<br>", unsafe_allow_html=True)
 
 st.subheader("Overview")
